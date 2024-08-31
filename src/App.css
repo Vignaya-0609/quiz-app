@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(rgba(136, 138, 255, 0.533),rgb(17, 71, 153));
+}
+.container{
+    width:640px;
+    background-color: #fff;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 15px;
+    padding: 40px 50px;
+}
+.container h1{
+  text-align: center;
+}
+.container hr{
+  border: 1px solid #707070;
+}
+.container h2{
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.container ul li{
+  list-style-type: none;
+  height: 50px;
+  padding: 5px;
+  border: 1px solid #686868;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.container button{
+  outline: none;
+  border: none;
+  width: 100px;
+  margin: auto;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(136, 25, 228);
+  color: #fff;
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+.container .index{
+  text-align: center;
+}
+.container .correct{
+  background-color: #dffff2;
+  border-color: green;
+}
+.container .incorrect{
+  background-color: #ffebeb;
+  border-color:red;
+}
